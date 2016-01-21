@@ -1,0 +1,135 @@
+﻿.pbody{
+    min-height: 250px;
+    background:url(../images/xw_bg.png) repeat-x;
+}
+.ptbx{
+    width:1200px;
+    margin:0 auto;
+}
+.ptbt{
+    float:left;
+    width:1200px;
+    height:100px;
+    line-height:100px;
+    font-family:微软雅黑;
+    font-size:32px;
+    color:#fff;
+}
+.ptkb{
+    float:left;
+    width:1200px;
+    height:45px;
+    background-color:#fff;
+}
+.sgzbx {
+    float: left;
+    width: 1200px;
+    min-height: 250px;
+    background:url(../images/line.png) repeat-y center center #fff;
+}
+.pyearbx{
+    float:left;
+    width:1200px;
+    height:72px;
+    margin-top:20px;
+}
+.pyearbx .year{
+    float:left;
+    margin-left:564px;
+    padding-left:12px;
+    width:92px;
+    height:72px;
+    line-height:72px;
+    font-family:微软雅黑;
+    font-size:20px;
+    cursor:pointer;
+}
+.pyearbx .year.close{
+    background:url(../images/guan.png);
+}
+.pyearbx .year.open{
+    background:url(../images/kai.png);
+}
+.pyearnr{
+    display:none;
+}
+.sjtr{
+    float:left;
+    width:1200px;
+    margin-top:10px;
+}
+.sjtr .sjbtz{
+    float:left;
+    margin-left:50px;
+    width:515px;
+    height:30px;
+}
+.sjtr .sjbtz span{
+    float:right;
+    margin-top:15px;
+    padding:0 15px;
+    background-color:#108cee;
+    height:30px;
+    line-height:30px;
+    font-family:微软雅黑;
+    font-size:16px;
+    color:#fff;
+    min-width:100px;
+}
+.yx1{
+    float:left;
+    width:70px;
+    height:40px;
+    background:url(../images/xw_yx1.png) no-repeat right bottom;
+}
+.nry{
+    float:left;
+    padding:20px;
+    width:475px;
+    min-height:50px;
+    background-color:#ededed;
+}
+.nrz{
+    float:left;
+    margin-left:50px;
+    padding:20px;
+    width:475px;
+    min-height:50px;
+    background-color:#ededed;
+}
+.yx2{
+    float:left;
+    width:70px;
+    height:40px;
+    background:url(../images/xw_yx2.png) no-repeat left bottom;
+}
+.sjtr .sjbty{
+    float:left;
+    width:515px;
+    height:30px;
+}
+.sjtr .sjbty span{
+    float:left;
+    margin-top:15px;
+    padding:0 15px;
+    background-color:#108cee;
+    height:30px;
+    line-height:30px;
+    font-family:微软雅黑;
+    font-size:16px;
+    color:#fff;
+    min-width:100px;
+}
+.xwbt{
+    float:left;
+    margin-bottom:10px;
+    margin-left:14px;
+    width:447px;
+    font-family:微软雅黑;
+    font-size:16px;
+    line-height:25px;
+}
+.sjtr img{
+    float:left;
+    margin:0 14px;
+}

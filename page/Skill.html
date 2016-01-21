@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/Skill.css" rel="stylesheet" />
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/Skill.js"></script>
+</head>
+<body>
+    <div class="pbody">
+        <div class="ptbx">
+            <div class="ptbt">技术成果</div>
+            <ul class="pttab">
+                <li xt="1" class="us">关键技术</li>
+                <li xt="2" class="us">文章</li>
+                <li xt="3" class="us">申请专利</li>
+                <li xt="4" class="us">著作权</li>
+            </ul>
+            <!-- 关键技术 -->
+            <div class="tabnr" xt="1">
+                <div class="gjjslb">
+                    <div class="gjjsbt">关键技术</div>
+                    <ul class="gjjscd">
+                        <li xt="1" class="us">泛在信息获取</li>
+                        <li xt="2" class="us">语义位置关联</li>
+                        <li xt="3" class="us">多维动态表达</li>
+                    </ul>
+                </div>
+                <!-- 泛在信息获取 -->
+                <div class="gjjsnr" xt="1">
+                    <div class="fzxx_bt" style="font-size:20px;line-height:80px;height:60px;">泛在信息获取</div>
+                    <div class="fzxx_nr">现在地图数据服务主要来源于专业测试部门和地图提供提供商，提供信息相对单一；同时，随着泛在网相关技术的不断发展，信息量越来越大，信息内容越来越丰富，因此迫切需要一种有效的泛在信息汇集和融合手段，为全息位置地图提供数据支撑。</div>
+                    <div class="fzxx_bt">1. 基于迭加协议的全息地图数据汇集</div>
+                    <div class="fzxx_nr">随着互联网技术的不断发展，来源于互联网且与位置相关的信息越来越丰富，基于网络爬虫、WebService接口、开放平台AP等数据获取手段也越来越多样化，然而与位置相关的海量信息利用率不到 5%。随着传感网技术的兴起，多源传感器数据（比如CCD图像、地面固定视频、地感线圈、大气温度和湿度等）也成为了泛在信息的重要来源之一。泛在信息的海量性、高速型、连续性迫切需要发展高效的数据汇集关联手段，实现位置关联、时态相关、主题融合的异构数据汇集关联技术与支持迭加协议的数据表达技术，为从而实现各种异构信息，如：动态交通信息、气象信息、 POI 信息（商品打折、停车场车位信息等）、自发地理信息（VGI）信息（个人照片，个人轨迹等）等信息的汇集，建立全息位置地图数据库，为实现资源共享、服务共享、发布共享提供数据支撑。</div>
+                    <div class="fzxx_bt">2. 多源异构泛在信息融合</div>
+                    <div class="fzxx_nr">为解决泛在信息的多来源、多维度、多尺度、异构、不确定性和不完备性等特点而引起的时间和空间不一致性、属性和语义不一致性的问题，需构建位置驱动的泛在信息融合框架。对于多源传感器数据，由于每个传感器提供的观测数据都是在各自的参考框架内，因此需要建立统一的时空基准，实现时间同步和空间配准；由于传感器工作环境的不确定性和传感器本身的系统误差等原因，导致观测数据包含噪声成分，因此需要能够对不完整、不一致的数据进行校正，保证融合结果能够真实反映客观环境；由于信息融合未形成基本的理论框架，融合研究皆是针对特定的应用领域的特定问题展开，基本的多传感器信息融合方法包括加权平均法，Bayes估计，Dempster-Shafer证据理论概念内涵初探，Kalman滤波，神经网络，粗糙集理论等。如何根据实际问题的特点，结合已有的融合算法确定合理的融合方案和融合模型，是进行信息融合的有效解决方案。</div>
+                </div>
+                <!-- 语义位置关联 -->
+                <div class="gjjsnr" xt="2">
+                    <div class="fzxx_bt" style="font-size:20px;line-height:80px;height:60px;">语义位置关联</div>
+                    <div class="fzxx_nr">语义位置关联是将来源广泛、类型复杂、时空参考异构的泛在信息，基于全息位置地图语义位置模型，在语义和知识层次上透过位置进行深度感知关联，实现目标对象的全方位发现。</div>
+                    <div class="fzxx_bt">1. 语义位置模型</div>
+                    <div class="fzxx_nr">位置模型是位置感知应用中必不可少的部分，它表达现实世界静态（如建筑物、洞室）或移动目标（如人员、车辆等）位置、距离、拓扑和方向等消息。通过位置模型可获取物理世界丰富语义，使得位置知识变得可理解。目前位置的描述与表达局限于物理位置、地理位置以及具有浅层语义内涵的语义位置，表现为一定空间参考系统下的地理点信息或者范围信息以及具有浅层语义的地名或显著地标等。物理位置、地理位置与浅层语义内涵的语义位置在一定程度上描述了位置的语义，但缺乏对位置环境和位置关系以及位置规则的描述，它们的描述能力有限。位置模型表达了现实世界静态和移动目标的位置及其空间关系等信息。Becker区分了三种位置模型，包括几何位置模型、符号位置模型以及两者结合构成的混合位置模型。几何位置模型能够提供精确地位置表达和查询，但对于位置之间的语义关系支持不够；符号位置模型善于表达未知空间关系，但无法很好地支持几何计算，且建模代价较大，同样对位置之间的语义关系支持不够。考虑几何位置模型和符号位置模型只能表达有限的位置语义，一种能够表达位置语义的语义位置模型被提出，并用于满足位置感知和计算的需求。然而，现有的语义位置模型虽然融入了不同方面的位置语义，但只是从物理空间建模的角度描述了位置概念、位置属性及位置之间的空间关系，距离完整表达与推理位置知识的目标依然很远。在反恐维稳任务中，常常存在犯罪分子位于“三点钟方向 100 米”或者“王府井百货大楼三层东南角”这样的位置描述，已有的位置描述模型无法描述和表达这种包含位置相互关系以及室内室外位置定位相结合的位置内涵，需要研究一种适用于泛在空间信息时空关联的语义位置模型，实现各种位置内涵的统一描述与表达。因此，朱欣焰和黄亮等人分析了多源位置数据特征，从空间扩展、语言学扩展和网络扩展三个方面对位置认知进行了分类，并提出了基于几何位置和语义位置的位置描述方法，通过对位置描述的位置语义提取以及对场景模型中的现实世界位置信息提取构建位置特征与位置关系，实现语义位置建模，为查询、导航和计算等地图应用提供语义位置支持。</div>
+                    <div class="fzxx_bt">2. 语义位置感知</div>
+                    <div class="fzxx_nr">位置感知（Location Awareness）是指通过一种或多种定位系统获取特定个体或物品的位置过程。语义位置的感知方式既可以通过结构化的地理位置数据，也可以从图片、视频数据提取地理标签，而基于自然语言和定位设备感知位置信息是主要的数据来源。自然语言位置描述面向大众，满足各个层次的用户需要，对专业知识要求较低。然而自然语言的地址表述形式多样，或地址描述中包含复杂的空间关系（比如：吴家山向头湾大堤两三百米（往长丰方向）），或地址描述语句之间存在隐含上下文关系（比如：雄楚大道珞狮南路口，往井岗村方向500米处，财源旅馆门口），或描述内容相对口语化，因此需研究一种高效的自然语言位置理解与抽取方法。由于位置信息表达具有一定规律，且语义均为获取位置信息，较为单一，适合采用基于统计和规则的方法，构建丰富的知识库，提供规则解析与匹配工具，消除同名或模糊地理实体歧义，实现基于自然语言的位置感知。在基于定位设备的位置感知方法中，室外定位方法已相对成熟，比如由美国研发的全球定位系统（Global Positioning System, GPS），而我国自主研发的北斗系列卫星导航定位系统处于起步阶段；对于室内定位方法，还处于早起发展阶段，目前已有高校和公司展开了相关研究，其中广域室内定位技术的代表是北邮的TC-OFDM[概念内涵初探30]和澳大利亚的Locata等方案；局域室内定位技术则包括Wi-Fi、蓝牙、ZigBee、RFID，以Bytelight为代表的LED定位，采用UWB的超宽带定位和以MIT Cricket为代表的超声波定位等解决方案。</div>
+                    <div class="fzxx_bt">3. 语义位置关联分析</div>
+                    <div class="fzxx_nr">语义位置关联分析是在语义位置模型基础上，动态汇集位置本身及与位置相关的信息，与人、物、事件等泛在信息建立关联关系，进一步实现位置语义及位置关联网分析，实现一组通用的位置关系和时空模式计算方法，为案情分析、导航等应用奠定基础。语义位置关联分析采用时空关联分析、挖掘与定性推理等方法，从空间位置（地名地址及其地理编码）、空间形态、空间关系、空间关联、空间对比、空间趋势、空间运动、时间序列、时间周期等方面进行时空关联分析，探索获取泛在信息的时空分布、聚类模式、时空异常、趋势预测、同位模式、序列模式、周期等方面深层关联知识，基于位置或目标实体提供警务所需的全方位综合泛在信息。</div>
+                </div>
+                <!-- 多维动态表达 -->
+                <div class="gjjsnr" xt="3">
+                    <div class="fzxx_bt" style="font-size:20px;line-height:80px;height:60px;">多维动态表达</div>
+                    <div class="fzxx_nr">多维动态场景作为全息位置地图泛在信息的承载载体，在传统场景模型与建模方法基础上，研究基于位置感知的信息推荐方法以及面向用户自适应构建地图表达模型；解决室内外一体化几何、拓扑和语义非一致性问题，实现面向多模式集成的室内外一体化实时、快速可视化。</div>
+                    <div class="fzxx_bt">1. 基于位置感知的场景信息表达</div>
+                    <div class="fzxx_nr" style="padding-bottom:0;">由于全息位置地图面向多样化的应用场景，应用场景的差异性导致信息的表达内容与表达方式不同；另一方面，地图的信息承载以及表达能力有限，而以位置为核心的关联信息具有内容丰富，形式多样等特点，因此，如何在有限的地图空间中，高效的关联和表达满足应用场景需求的信息是研究重点。基于位置感知的信息推荐是一种有效的解决方案，根据用户的历史数据计算判断用户的偏好模式，综合用户历史/当前位置情景信息、主动向用户推送其感兴趣的内容，即场景需要表达的信息。其中，位置情景数据既包括用户的时空位置、时空环境等时空数据，也包括用户身份、状态、偏好等属性数据，以及应用场景特征等信息。如图所示，以访问“武汉大学测绘遥感信息工程国家重点实验室”为例，当访问者到达测绘遥感国家重点实验室门口时，系统推送以实验室为核心的重要信息，比如楼层的空间布局结构，以及重要人员办公地点等（参见图a）；当访问者进入实验室大厅时，基于用户位置、朝向等分析，自动关联用户感兴趣的信息，比如王之卓先生的头像，二楼楼梯口以及研究生管理办公室等（参见图b）这种关联随着位置以及应用人员的不同，自动推送的信息也不同。</div>
+                    <div class="fzxx_nr" style="padding-bottom:0;">
+                        <div class="fzxx_bx" style="margin-left:0px;">
+                            <img src="../images/gjjs1.png" width="430" height="270" />
+                            <div class="fzxx_tp">（a）实验室入口与平面结构图</div>
+                        </div>
+                        <div class="fzxx_bx">
+                            <img src="../images/gjjs2.png" width="430" height="270" />
+                            <div class="fzxx_tp">（b）实验室大厅</div>
+                        </div>
+                    </div>
+                    <div class="fzxx_bt">2. 自适应地图制图</div>
+                    <div class="fzxx_nr">在新地理信息时代，地图可视化系统种类不断增多，应用领域不断扩大，如何根据广大用户特征和需求提供针对性的服务，“以用户为中心的设计”是当前地图可视化系统普及发展的需求。自适应是对不同类型用户的适应性，根据用户的背景信息和用户交互行为信息建立用户模型，基于角色、情景和相关事件描述，设计统一的地图情境模型，通过层次、聚类、联合、地标等地理相关性计算，定制满足不同需求的地图可视化模板，实现自适应用户的地图表达。例如，面对室外导航的应用场景，由于显著性地理标识对用户能起到明显的辨认和区分作用，因此对地图上显著性地理标识（如十字路口，著名建筑物等）给予显著性放大或特殊标记将对用户导航具有重要意义。</div>
+                    <div class="fzxx_bt">3. 室内外一体化建模与表达</div>
+                    <div class="fzxx_nr">针对全息位置地图室内外一体化需求，以多尺度时空模型为核心，结合以多态过程聚合的多层次事件，以及多细节层次模型和语义定义，构建室内外一体化综合模型。针对室内外场景数据（真三维、全景、矢量、影像、拓扑等）的多源异构性特点，以及室内外一体化表达的需求，需从几何、拓扑以及语义三个层次上构建室内外一体化场景，从而实现室内外一体化建模。室内外一体化表达依托于室内外一体化模型构建。由于室内场景与室外场景的表达层级与空间粒度的差异，需要采用不同层级的语义表达环境，不利于用户对全息位置地图场景的理解和使用，难以实现室内外空间的位置计算。因此，需要基于室内外一体化三维场景，以室内外空间尺度和粒度为中心，以室内外空间位置表达为核心，结合室内外各类地物对象的专题语义，从空间和语义两个层面上交叉融合构建室内外一体化语义表达模型，实现室内外三维对象的多层次、全方位、多尺度、无缝的准确语义赋值；基于室内外一体化语义表达的位置计算方法，通过室内外过渡空间的连接，实现对室内外不同语义三维对象之间或三维对象内部的位置解析与路径计算。在应急情况下，室内外一体化语义表达对建立合适的应急方案有很大帮助，并可以辅助警务部门对应急情况下人群疏散进行管理。</div>
+                    <div class="fzxx_bt">4. 多模式集成可视化</div>
+                    <div class="fzxx_nr" style="padding-bottom:0;">全景地图作为一种新的地图表现形式，能够进行实景模拟，并依据直观仿真的要求，快速在线展示整个现实场景。其次，具有几何准确性和照片真实感的室内三维场景模型在公共安全区域监控、突发事件应急响应等应用领域有着迫切的需求。因此，基于二维、三维、影像、点云、全景等地图模型，研究室内外一体地图可视化，实现室外与室内场景的无缝过渡；研究多种地图模式的无缝切换，实现多模式集成可视化，对突发事件发生时建立合适的应急方案有很大帮助，并可以辅助办案人员对作案现场进行侦查，快速标绘事故地点，跟踪动态目标，部署警力，实现科学决策。展示了全景影像与点云数据融合的效果，在彩色图像基础上增加了深度信息，实现了室内场景的可量测。</div>
+                    <div class="fzxx_nr">
+                        <div class="fzxx_bx" style="margin-left:0px;">
+                            <img src="../images/gjjs3.png" width="430" height="270" />
+                            <div class="fzxx_tp">全景影像与点云数据融合</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 文章 -->
+            <div class="tabnr" xt="2">
+                <div class="jscgtmbx"><div class="jscgtm">文章</div></div>
+                <div class="zltr" style="margin-top:25px;">
+                    <div class="zlsz">1</div>
+                    <div class="zlnr" style="line-height:30px;">Bing She, Xinyan Zhu, Xinyue Ye, Wei Guo, Kehua Su, Jay Lee. Weighted network Voronoi Diagrams for local spatial analysis[J]. Computers, Environment and Urban Systems 52(2015)70-80.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz" style="margin-top:30px;">2</div>
+                    <div class="zlnr" style="line-height:30px;">Can Li, Xinyan Zhu,Wei Guo,Yi Liu,Liang Huang. Research on Extension of SPARQL Ontology Query Language Considering the Computation of Indoor Spatial Relations[J]. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XL-4/W5, 2015:67-73.</div>
+                </div>
+                <div class="zltr" style="margin-top:20px;">
+                    <div class="zlsz">3</div>
+                    <div class="zlnr" style="line-height:30px;">Ling Wu, Xiaodian Liu, Xinyue Ye, Mark Leipnik, Jay Lee, Xinyan Zhu. Permeability, space syntax, and the patterning of residential burglariesin urban China[J].Applied Geography 60(2015)261-265.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">4</div>
+                    <div class="zlnr" style="line-height:30px;">Ling Wu,Xiao Xu,Xinyue Ye,Xinyan Zhu. Repeat and near-repeat burglaries and offender involvement in a large Chinese city[J]. Cartography and Geographic Information Science,2015,422:37-41.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">5</div>
+                    <div class="zlnr" style="line-height:30px;">Ling-yue Liu, Wei Chen, Tien-tsin Wong, Wen-ting Zheng, Wei-dong Geng, An Improved Parallel Contrast-aware Halftoning, Journal of Zhejiang University-SCIENCE SCIENCE C, 2013 14(12):918-929. (SCI)</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">6</div>
+                    <div class="zlnr" style="line-height:30px;">Qing Xiong, Qing Zhu, Sisi Zlatanovac, Zhiqiang Du, Yeting Zhang, Li Yang Zeng.Multi-level Indoor Path Planning Method.The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XL-4/W5.2015:19-23.</div>
+                </div>
+                <div class="zltr" style="margin-top:20px;">
+                    <div class="zlsz">7</div>
+                    <div class="zlnr" style="line-height:30px;">Qing Xiong, Qing Zhu,Sis Zlatanova,Zhiqiang Du,Yeting Zhang.Coarse-to-Fine Algorithm of Automated Indoor Space Extraction from Complex 3D Building Models.computers environment and urban systems.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">8</div>
+                    <div class="zlnr" style="line-height:30px;">Qing Xiong, Qing Zhu, Sisi Zlatanovac, Liang Huang, Yan Zhou, Zhiqiang Du.MULTI-DIMENSIONAL INDOOR LOCATION INFORMATION MODEL.The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XL-4/W4,2013,pp45-49.</div>
+                </div>
+                <div class="zltr" style="margin-top:20px;">
+                    <div class="zlsz">9</div>
+                    <div class="zlnr" style="line-height:30px;">Rong LI, Xin DING, Jun-hao YU, Tian-yi GAO, Wen-ting ZHENG, Rui WANG, Hu-jun BAO， Procedural generation and real-time rendering of a marine ecosystem，Journal of Zhejiang University-SCIENCE SCIENCE C, 2014 15(7):514-524. (SCI)</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">10</div>
+                    <div class="zlnr" style="line-height:30px;">Wei Hua, Rui Wang, Xusheng Zeng, Ying Tang, Huamin Wang, Hujun Bao, Compressing repeated content within large-scale remote sensing images, The Visual Computer, Volume 28, Issue 6-8, pp 755-764, 2012. (SCI)</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">11</div>
+                    <div class="zlnr" style="line-height:30px;">Xinyan Zhu,Bing She,Wei Guo,Shuming Bao,Di Chen. Integrating Spatial Data Linkage and Analysis Services in a Geoportal for China Urban Research[J]. Transactions in GIS,2015,19(1):107-128.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">12</div>
+                    <div class="zlnr" style="line-height:30px;">Xiujuan Li, Yan Zhou and Hanjiang Xiong, 3D Indoor Location on Mobile Phones Using Embedded Sensors and Close-Range PhotogrammetryProgress in Location-Based Services 2014, Springer International Publishing SwitzerLand 2015 (国际会议论文).</div>
+                </div>
+                <div class="zltr" style="margin-top:20px;">
+                    <div class="zlsz">13</div>
+                    <div class="zlnr">Xuefeng Dai, Haniang Xiong, Sheng Guo; An Internal Space Organization Method Based on Semantic(国际会议论文).</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">14</div>
+                    <div class="zlnr" style="line-height:30px;">Yazhen Yuan, Rui Wang, Jin Huang, Yanming Jia, Hujun Bao, Simplified and tessellated mesh for realtime high quality rendering, Computers & Graphics 54(2016), p135–144.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">15</div>
+                    <div class="zlnr">艾浩军,李泰舟,王玙璠. WiFi指纹定位中的楼层辨识方法研究[J]. 武汉理工大学学报(信息与管理工程版),2015,03:269-273+286.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">16</div>
+                    <div class="zlnr">戴雪峰,熊汉江,龚健雅.一种三维城市模型多纹理自动合并方法[J].武汉大学学报信息科学版,2015,40(3): 347-351.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">17</div>
+                    <div class="zlnr">段炼,呙维,朱欣焰,胡宝清.基于时空主题模型的微博主题提取[J].武汉大学学报信息科学版,2014,39(2):210-213+243.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">18</div>
+                    <div class="zlnr">段炼,朱欣焰.基于社区时空主题模型的微博社区发现方法[J].电子科技大学学报,2014,43(3):464-469.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">19</div>
+                    <div class="zlnr">呙维,胡涛,朱欣焰.基于kinect的深度数据融合方法[J].计算机应用研究,2014,31(1):285-288.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">20</div>
+                    <div class="zlnr">黄亮,谭娟,朱欣焰,呙维.一种空间数据服务虚拟化描述方法[J].计算机应用研究,2013,30(11):3358-3361.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">21</div>
+                    <div class="zlnr">黄亮,朱欣焰,呙维,佘冰.一种线状位置文本描述的估算方法[J].武汉大学信息科学版.2014,39(4):481-485.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">22</div>
+                    <div class="zlnr">李铭,沈陈华,朱欣焰,陈旭.城乡一体化地籍联动变更规则及模型研究[J].武汉大学学报信息科学版,2013,38(10):1253-1256.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">23</div>
+                    <div class="zlnr">李融,丁欣,郑文庭,王锐,鲍虎军.基于GPU的海量城市管线高效建模与实时绘制[J].计算机辅助设计与图形学学报,2015,27(4):597-604.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">24</div>
+                    <div class="zlnr">罗俊沣,朱欣焰,陈迪,呙维.道路网约束下的多尺度面状要素自动匹配[J].计算机应用研究,2014,31(11):3247-3249.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">25</div>
+                    <div class="zlnr">佘冰,朱欣焰,苏科华,呙维,徐晓. 道路网约束下的事件时空交互检验方法研究[J]. 武汉大学学报(信息科学版),2015,03:353-356+383.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">26</div>
+                    <div class="zlnr">佘冰,叶信岳,房会会,吴玲,朱欣焰,程叶青. 基于局部聚类的网络Voronoi图生成方法研究[J]. 地理科学,2015,05:637-643.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">27</div>
+                    <div class="zlnr" style="line-height:30px;">佘冰,朱欣焰,呙维,徐晓.基于空间点模式分析的城市管理事件空间分布及演化——以武汉市江汉区为例[J].地理科学进展,2013,32(6):924-931.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">28</div>
+                    <div class="zlnr">田文文,朱欣焰,呙维.一种VGI矢量数据增量变化发现的多层次蔓延匹配算法[J].武汉大学学报信息科学版,2014,39(8):963-967+973.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">29</div>
+                    <div class="zlnr">张旭,朱欣焰,鲍曙明.中国人口生育率的时空演变与空间差异研究[J].武汉大学信息科学版,2012,37(5):516-519.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">30</div>
+                    <div class="zlnr">张倬胜,艾浩军,马方方,薛静远,章尹圣原,艾浩军. 基于iBeacon定位技术的智慧图书馆[J]. 电子产品世界,2015,01:31-35.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">31</div>
+                    <div class="zlnr">张倬胜,马方方,薛静远,艾浩军. 基于iBeacon的精细室内定位方法研究[J]. 地理信息世界,2015,02:26-30.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">32</div>
+                    <div class="zlnr">孙奕敏,王玙璠,艾浩军. 基于广域定位的停车诱导与反向寻车方法研究[J]. 科技视界,2015,17:28+31.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">33</div>
+                    <div class="zlnr">朱庆,熊庆,赵君峤.室内位置信息模型与智能位置服务[J].测绘地理信息,2014,39(5):1-7.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">34</div>
+                    <div class="zlnr">孙奕敏,王玙璠,艾浩军. 基于WiFi定位的智慧医院系统[J]. 科技视界,2015,19:38-39.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">35</div>
+                    <div class="zlnr">朱泽洲,熊汉江,戴雪峰.顾及语义的室内三维模型数据组织与可视化[J].测绘与空间地理信息,2015, 38(4): 41-43</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">36</div>
+                    <div class="zlnr">朱欣焰,周成虎,呙维,胡涛,刘洪强,高文秀. 全息位置地图概念内涵及其关键技术初探[J]. 武汉大学学报(信息科学版),2015,03:285-295.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">37</div>
+                    <div class="zlnr">朱欣焰,杨龙龙,呙维,黄亮,李灿,熊庆. 面向全息位置地图的室内空间本体建模[J]. 地理信息世界,2015,02:1-7.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">38</div>
+                    <div class="zlnr">朱欣焰,樊亚新,胡涛,张胜男. 全息位置地图:以位置为核心实现空间信息的动态关联与智能化服务[J]. 海峡科技与产业,2014,10:87-91.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">39</div>
+                    <div class="zlnr">刘汝倩,佘冰,朱欣焰,呙维. 社会经济重心轨迹的语义方向玫瑰图生成方法及应用[J]. 计算机应用研究,2015,12:.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">40</div>
+                    <div class="zlnr">朱欣焰.位置传感网与全息位置地图关键技术及其应用[J].中国科技成果,2015,(2):28-28,31.DOI:10.3772/j.issn.1009-5659.2015.02.016.</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">41</div>
+                    <div class="zlnr">钟宇琛,王锐.基于边界斜率预测的形态学反走样方法[J].软件学报,2012,23():</div>
+                </div>
+            </div>
+            <!-- 专利 -->
+            <div class="tabnr" xt="3">
+                <div class="jscgtmbx"><div class="jscgtm">申请专利</div></div>
+                <div class="zltr" style="margin-top:25px;">
+                    <div class="zlsz">1</div>
+                    <div class="zlnr">一种城市三维场景数据的室内外一体化组织方法，申请号：201410085589.X</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">2</div>
+                    <div class="zlnr">一种基于代码移动的着色器简化方法、装置及图形渲染方法，申请号：2014105414268</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">3</div>
+                    <div class="zlnr">一种基于曲面细分的着色器简化方法、装置及图形渲染方法，申请号：2014105419562</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">4</div>
+                    <div class="zlnr">一种基于Wi-Fi指纹的室内定位方法，申请号：201310291716.7</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">5</div>
+                    <div class="zlnr">基于Kinect的室内LiDAR缺失数据填补方法，申请号：201210351493.4</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">6</div>
+                    <div class="zlnr">一种基于互联网主动迭代探测的未知位置估算，申请号：201210579579.2</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">7</div>
+                    <div class="zlnr">用于大型影像的多尺度图像分割结果快速可视化方法, 申请号：201210268070.6</div>
+                </div>
+            </div>
+            <!-- 著作权 -->
+            <div class="tabnr" xt="4">
+                <div class="jscgtmbx"><div class="jscgtm">著作权</div></div>
+                <div class="zltr" style="margin-top:25px;">
+                    <div class="zlsz">1</div>
+                    <div class="zlnr">智慧图书馆3D全境监管系统，登记号：2015SR005748</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">2</div>
+                    <div class="zlnr">智慧图书馆后台管理系统，登记号：2015SR005900</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">3</div>
+                    <div class="zlnr">城市区域分析系统，登记号：2013SR022643</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">4</div>
+                    <div class="zlnr">在线空间数据集成展示系统，登记号：2013SR012396</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">5</div>
+                    <div class="zlnr">基于智能手机平台的盲人居家视觉辅助系统，登记号：2012SR084253</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">6</div>
+                    <div class="zlnr">嵌入式GPS平台软件，登记号：2012SR119791</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">7</div>
+                    <div class="zlnr">通用符号编辑软件[简称:SymbolEditor]V1.0，登记号：2012SR119225</div>
+                </div>
+                <div class="zltr">
+                    <div class="zlsz">8</div>
+                    <div class="zlnr">物联网即时通讯软件[简称:IOTQQ]V1.0，登记号：2012SR119812</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

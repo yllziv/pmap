@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>全息位置地图</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/Index.css" rel="stylesheet" />
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/Index.js"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+            
+</head>
+<body>
+    <div class="p_topbx">
+        <div class="p_top">
+            <div class="logo"></div>
+            <ul class="menubx">
+                <li class="us" xt="1">首页</li>
+                <li class="us" xt="2">新闻事件</li>
+                <li class="us" xt="3">技术成果</li>
+                <li class="us" xt="4">成果展示</li>
+                <li class="us" xt="5">示范应用</li>
+                <li class="us" xt="6">团队成员</li>
+            </ul>
+        </div>
+    </div>
+    <div class="p_center">            
+        <iframe id="MFrame" name="mIFrame" src="page/Home.html" width="100%" frameborder="0"  scrolling="no"></iframe>
+    </div>
+    <div class="p_bottom">Copyright © 武汉大学 ︱ 测绘遥感信息工程国家重点实验室</div>
+</body>
+</html>

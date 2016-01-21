@@ -1,0 +1,127 @@
+﻿.pbody{
+    min-height: 250px;
+    background:url(../images/xw_bg.png) repeat-x;
+}
+.ptbx{
+    width:1200px;
+    margin:0 auto;
+}
+.ptbt{
+    float:left;
+    width:1200px;
+    height:100px;
+    line-height:100px;
+    font-family:微软雅黑;
+    font-size:32px;
+    color:#fff;
+}
+.sfyybx{
+    float:left;
+    width:1200px;
+    min-height:400px;
+    background-color:#fff;
+}
+.sfli{
+    float:left;
+    width:1140px;
+    height:230px;
+    margin-top:50px;
+    margin-left:30px;
+}
+.sftp{
+    float:left;
+    margin-right:30px;
+    width:439px;
+    height:225px;
+    border:1px solid #c9c9c9;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.x1{
+    background-image:url(../images/sfyy/sfyy1.png);
+}
+.x2{
+    background-image:url(../images/sfyy/sfyy2.png);
+}
+.x3{
+    background-image:url(../images/sfyy/sfyy3.png);
+}
+.x4{
+    background-image:url(../images/sfyy/sfyy4.png);
+}
+.x5{
+    background-image:url(../images/sfyy/sfyy5.png);
+}
+.x6{
+    background-image:url(../images/sfyy/sfyy6.png);
+}
+.sfbt{
+    float:left;
+    width:668px;
+    height:50px;
+    line-height:50px;
+    color:#108cee;
+    font-size:24px;
+    font-family:微软雅黑;
+    cursor:pointer;
+}
+.sfbt:hover{
+    text-decoration:underline;
+}
+.sfnr{
+    float:left;
+    width:668px;
+    height:180px;
+    line-height:30px;
+    font-size:14px;
+    font-family:微软雅黑;
+}
+.sfnrtg{
+    float:left;
+    width:1140px;
+    height:70px;
+    margin-left:30px;
+    line-height:85px;
+    color:#108cee;
+    font-size:24px;
+    font-family:微软雅黑;
+    border-bottom:1px solid #c9c9c9;
+}
+.sfnrhs{
+    float:left;
+    width:1140px;
+    margin-left:30px;
+    height:65px;
+    font-size:14px;
+    font-family:微软雅黑;
+    line-height:30px;
+}
+.ls {
+    color:#108cee;
+    height:30px !important;
+}
+.sfnrtp{
+    float:left;
+    width:1140px;
+    height:310px;
+    margin-left:30px;
+}
+.sfnrtp img{    
+    float:left;
+}
+.back{
+    float:right;
+    margin-top:30px;
+    width:45px;
+    padding-left:25px;
+    height:30px;
+    background:url(../images/sfyy/fh.png) no-repeat left center;
+    line-height:30px;
+    font-size:14px;
+    font-family:微软雅黑;    
+    color:#108cee;
+    cursor:pointer;
+}
+.back:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,63 @@
+﻿body {
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.p_topbx{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:80px;
+    background-color:#fff;
+}
+.p_top{
+    width:1200px;
+    height:80px;
+    margin:auto;
+}
+.logo{
+    float:left;
+    width:215px;
+    height:80px;
+    background:url(../images/logo.png) no-repeat center center;
+}
+.menubx{
+    float:right;
+    width:580px;
+    height:80px;
+}
+.menubx li{
+    float:left;
+    margin-left:30px;
+    width:65px;
+    height:80px;
+    line-height:80px;
+    font-size:16px;
+    text-align:center;
+    font-family:微软雅黑;
+    cursor:pointer;
+}
+.menubx li.us{
+    color:#666666;
+}
+.menubx li.us:hover{
+    color:#108cee;
+}
+.menubx li.ss{
+    color:#108cee;
+}
+.p_center{
+    float:left;
+    margin-top:80px;
+    width:100%;
+    height:auto;
+}
+.p_bottom{
+    float:left;
+    width:100%;
+    height:99px;
+    background-color:#efefef;
+    color:#666666;
+    text-align:center;
+    line-height:99px;
+}
